@@ -7,7 +7,7 @@
   - rest of metadata store in inode(internal storage unit used by Unix file system)
     - simply, kind of block in disk
 
-![inode structure](/Notes/images/inode_structure.png)
+![inode structure](Lectures/Notes/images/inode_structure.png)
 
 #### 5.1.1 Struct of metadata
 - in Unix I/O API, metadata called `stat`

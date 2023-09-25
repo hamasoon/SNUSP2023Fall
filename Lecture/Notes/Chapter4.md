@@ -94,10 +94,16 @@
     exit(EXIT_FAILURE);
   }
   ```
-1. remove(slighly different from other I/O API)
-  - 
-
-
 ## 4.2 Standard I/O
+- Use buffer to reduce number of read()/write call of system calls
+  - fully buffered, line buffered, and unbuffered
+- Offer formatted I/O interface
+  - printf, scanf, etc...
+
+#### 4.2.1 Unix I/O vs Standard I/O
+
+#### 4.2.2 Standard I/O API
+
+#### 4.2.3 Standard I/O Streams
 
 ## 4.3 Interaction of Standard I/O with Unix I/O

@@ -51,6 +51,6 @@ struct stat {
           따라서, 파일 구멍 중간에 바이트들을 작성하면 파일의 크기는 변하지 않는데 디스크 할당량은 늘어날 수 있다. (빈 공간이 줄어들  수 있다.)
           이는 다시 말해 write 작업으로 파일 크기가 변하지 않아도 디스크 공간 부족으로 실패 하는 일이 있을 수 있는 것이다.
 4. ctim[e] vs mtim[e] vs atim[e]
-
+- note that file creation time is not in file meta data!!!!!
 ## 5.2 Directories
 ## 5.3 Kernel File Management
